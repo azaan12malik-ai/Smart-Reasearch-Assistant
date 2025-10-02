@@ -1,3 +1,4 @@
+import ddgs
 import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_community.utilities import ArxivAPIWrapper, WikipediaAPIWrapper
@@ -176,3 +177,4 @@ if prompt := st.chat_input("💬 Type your question here..."):
 
         except Exception as e:
             st.error(f"❌ Error: {e}")
+
