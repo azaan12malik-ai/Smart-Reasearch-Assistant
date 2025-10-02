@@ -21,3 +21,4 @@ numexpr
 python-dotenv
 ipykernel
 pydantic
+ddgs
