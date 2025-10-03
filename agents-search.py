@@ -45,7 +45,7 @@ st.markdown(
     /* User bubble */
     .user-bubble {
         background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
-        color: white;
+        color: black;
         padding: 14px 20px;
         border-radius: 20px 20px 0 20px;
         margin: 8px 0;
@@ -177,4 +177,5 @@ if prompt := st.chat_input("💬 Type your question here..."):
 
         except Exception as e:
             st.error(f"❌ Error: {e}")
+
 
